@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.custom-control {
+    align-items: center;
+    margin: 0;
+    width: 95%;
+    .ck-blurred  {
+        height: 500px;
+    }
+}
+
+.mb-3 {
+    margin-top: 5px;
+}
+.ck-editor {
+    min-height: 70%;
+}
