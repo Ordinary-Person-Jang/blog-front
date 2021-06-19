@@ -4,6 +4,7 @@ import {Swtich, Route} from 'react-router-dom';
 import Switch from 'react-bootstrap/esm/Switch';
 import Contents from './Contents';
 import WritePage from './WritePage'
+import UserBlog from './UserBlog';
 
 function App() {
   return (
@@ -40,6 +41,9 @@ function App() {
 
       <Route path="/write">
         <WritePage/>
+      </Route>
+      <Route path="/@:id">
+        <UserBlog/>
       </Route>
     </Switch>
     </div>

@@ -1,3 +1,12 @@
-.Container{
-    margin-top: 10px;
+.card {
+    margin: 1rem;
+    width: 20rem;
+    min-width: 20em;
+    cursor: pointer;
+    transition: box-shadow 0.25s ease-in 0s, transform 0.25s ease-in 0s;
+}
+header {
+    button {
+        margin-left: 5px;
+    }
 }

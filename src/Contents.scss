@@ -1,0 +1,17 @@
+.Container{
+    margin-top: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.CardBox {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+}
+.card {
+    margin: 1rem;
+    width: 20rem;
+    min-width: 20em;
+}
