@@ -1,0 +1,43 @@
+.card {
+  margin: 1rem;
+  width: 20rem;
+  min-width: 20em;
+  cursor: pointer;
+  transition: box-shadow 0.25s ease-in 0s, transform 0.25s ease-in 0s;
+}
+header {
+  button {
+    margin-left: 5px;
+  }
+  .header-nav {
+    margin-top: 1em;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    .header-nav-left {
+      margin-left: 3em;
+      a {
+        color: rgb(52, 58, 64);
+      }
+    }
+    .header-nav-right {
+      margin-right: 3em;
+      a {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: cadetblue;
+      }
+      button {
+        margin-left: 2rem;
+        width: 5rem;
+        height: 2rem;
+        color: white;
+        font-size: 1rem;
+        border-radius: 1rem;
+        font-weight: bold;
+        border: none;
+        background-color: rgb(52, 58, 64);
+      }
+    }
+  }
+}

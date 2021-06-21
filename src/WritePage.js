@@ -1,7 +1,7 @@
 import React from 'react';
 import { CKEditor } from '@ckeditor/ckeditor5-react';
 import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
-import './WritePage.scss';
+import './CSS/WritePage.scss';
 import {Form,Button} from 'react-bootstrap'
 
 

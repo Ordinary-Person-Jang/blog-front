@@ -1,0 +1,35 @@
+.UtilBar {
+  width: 100%;
+  margin: 1.5em;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  a {
+    font-size: 22px;
+    margin-right: 1em;
+    color: gray;
+  }
+  .left_btn_box {
+    margin-left: 1.5em;
+  }
+  .right_btn_box {
+    margin-right: 1.5em;
+  }
+}
+.Container {
+  margin-top: 10px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.CardBox {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  flex: 1 1 0;
+}
+.card {
+  margin: 1rem;
+  width: 20rem;
+  min-width: 20em;
+}

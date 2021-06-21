@@ -1,0 +1,56 @@
+.ProfileBox {
+  display: flex;
+  flex-flow: row;
+  margin-bottom: 30px;
+  .ProfilePic {
+    width: 200px;
+    width: 200px;
+    // border: 1px solid gray;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 25px;
+  }
+  .ProfileDetail {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    .TitleRow {
+      display: flex;
+      flex-flow: row;
+      button {
+        margin-left: 10px;
+      }
+    }
+    .ttb_element {
+      margin-right: 10px;
+    }
+    .utilBtn {
+      background-color: white;
+      border: none;
+    }
+    .TitleCFF {
+      display: flex;
+      flex-flow: row;
+      p {
+        margin-right: 15px;
+        font-weight: 500;
+      }
+    }
+  }
+}
+.nav-tabs {
+  margin-bottom: 1.5em;
+}
+.CardBox {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  flex: 1 1 0;
+  max-width: 88em;
+  margin: -1em;
+
+  small {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
