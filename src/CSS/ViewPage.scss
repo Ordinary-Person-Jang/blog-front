@@ -1,0 +1,52 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .content-wrap {
+    margin-top: 4rem;
+    width: 48rem;
+    display: flex;
+    flex-flow: column;
+    .content-header {
+      .content-info {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        .content-info-left {
+          display: flex;
+          flex-flow: row;
+          padding: 0.4rem;
+          a {
+            text-decoration: none;
+            color: black;
+          }
+          span {
+            margin-left: 0.5rem;
+          }
+        }
+        .content-info-right {
+          display: flex;
+          flex-flow: row;
+          margin-right: 0.5rem;
+          .favorite-icon {
+            margin-right: 1rem;
+          }
+        }
+      }
+
+      .content-thumbnail {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        .thumbnail {
+          border: solid 0.5px rgb(222, 226, 230);
+          width: 768px;
+          height: 400px;
+        }
+      }
+    }
+  }
+}

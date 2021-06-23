@@ -10,12 +10,14 @@
       .icon-wrap {
         display: flex;
         flex-flow: column;
-        align-items: center;
 
         p {
           margin-left: 1rem;
           margin-right: 1rem;
           font-size: 2rem;
+          svg {
+            align-content: center;
+          }
         }
       }
       input {

@@ -4,6 +4,14 @@
   min-width: 20em;
   cursor: pointer;
   transition: box-shadow 0.25s ease-in 0s, transform 0.25s ease-in 0s;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+.card:hover {
+  transform: translateY(-0.5em);
+  transition: transform 0.2s;
 }
 header {
   button {
@@ -17,6 +25,7 @@ header {
     .header-nav-left {
       margin-left: 3em;
       a {
+        text-decoration: none;
         color: rgb(52, 58, 64);
       }
     }
@@ -26,6 +35,7 @@ header {
         font-size: 1.5rem;
         font-weight: bold;
         color: cadetblue;
+        text-decoration: none;
       }
       button {
         margin-left: 2rem;
